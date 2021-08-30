@@ -1,0 +1,63 @@
+body {
+    font: 20px Arial, sans-serif;
+}
+img{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 25px;
+}
+
+.navbar {
+    background-color: #82B8D9;
+    text-decoration: none;
+    
+}
+.navbar span {
+    font-size: 50px;     
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.quem-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #03318C;
+    color: seashell;
+}
+.quem-somos h3{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.quem-somos span{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.margin {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+form {
+    font-size: 2rem;     
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: #93c0c4;
+}
+fieldset {
+    border: none;
+}
+
+footer{
+    font-size: 20px;     
+    display: flex;
+    flex-direction: column;
+    align-items:center;    
+}
+.bg-footer {
+    background-color: rgb(19, 85, 139);
+    color: seashell;
+}
